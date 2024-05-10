@@ -1,0 +1,12 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "Simple node app for Docker & k8s course",
+  "main": "server.js",
+  "author": "Eugene Suleimanov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "1.20.2"
+  }
+}
