@@ -17,6 +17,6 @@
 <br/>`docker run -p 4200:4200 nodeapp:latest`
 
 ### Дополнительные ссылки
-* [GitHub repository](https://github.com/proselytear/usersapi)
+* [GitHub repository](https://github.com/proselytear/nodeapp)
 * [Proselyte Community TG](https://t.me/pse_club)
 
