@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: proselyte-nodeapp-deployment-prod
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: proselyte-nodeapp-prod
+      tier: client-prod
+  template:
+    metadata:
+      labels:
+        app: proselyte-nodeapp-prod
+        tier: client-prod
+    spec:
+      containers:
+        - name: proselyte-nodeapp-prod
+          image: proselyte/nodeapp:prod
