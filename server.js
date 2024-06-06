@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send(`
     <html>
       <body>
-        <h1>Версия K8S DEV</h1>
+        <h1>Версия K8S PROD</h1>
         <h1>Привет, дорогой ${username}!</h1>
         <br/>
         <form action="/set-username" method="POST">
